@@ -28,7 +28,7 @@ namespace Telegrama2._0
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
-            if (chkUrgente.Checked)
+            if (radioButton2.Checked)
             {
                 tipoTelegrama = 'u';
             }
